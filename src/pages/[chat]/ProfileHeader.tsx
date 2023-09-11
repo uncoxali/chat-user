@@ -20,7 +20,7 @@ const style: CSSProperties = {
   color: "white",
 };
 
-export function ProfileHeader() {
+export default function ProfileHeader() {
   const router = useRouter();
   const { name, id } = router.query;
 

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { ProfileHeader } from "./ProfileHeader";
+import ProfileHeader from "./ProfileHeader";
 import dynamic from "next/dynamic";
 import { InputMessage as BoxMessage } from "@/components/common/InputMessage";
 import { useDispatch, useSelector } from "react-redux";
